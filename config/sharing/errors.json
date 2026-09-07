@@ -1,0 +1,44 @@
+{
+  "error_codes": {
+    "0x0000011B": {
+      "category": "Printer Sharing / RPC",
+      "description": "Windows cannot connect to the printer - biasanya masalah RPC atau Point & Print policy."
+    },
+    "0x00000709": {
+      "category": "Printer Connection",
+      "description": "Gagal set default printer / koneksi printer, sering terkait driver atau spooler."
+    },
+    "0x00000040": {
+      "category": "Network Path",
+      "description": "The specified network name is no longer available - server down atau SMB terputus."
+    },
+    "0x00000057": {
+      "category": "Parameter Error",
+      "description": "The parameter is incorrect - biasanya path/nama share salah atau driver tidak cocok."
+    },
+    "0x00000002": {
+      "category": "File Not Found",
+      "description": "System cannot find the file specified - share/printer tidak ada atau driver hilang."
+    },
+    "0x00000035": {
+      "category": "Network Path Not Found",
+      "description": "Server tidak reachable, DNS gagal resolve, atau server mati."
+    },
+    "0x00000005": {
+      "category": "Access Denied",
+      "description": "Permission ditolak - cek share/NTFS/printer permission dan kredensial."
+    },
+    "RPC_ERROR": {
+      "category": "RPC",
+      "description": "RPC server unavailable - cek service RPC, firewall, dan RPC Configuration registry."
+    },
+    "ACCESS_DENIED": {
+      "category": "Authentication",
+      "description": "Kredensial ditolak - cek permission, guest access, dan credential manager."
+    },
+    "UNKNOWN": {
+      "category": "Unknown",
+      "description": "Error tidak dikenali - jalankan Full Diagnostic untuk melihat gambaran umum."
+    }
+  }
+}

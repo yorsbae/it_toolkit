@@ -1,0 +1,16 @@
+{
+  "rpc_configuration": {
+    "key_path": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Rpc",
+    "value_name": "RestrictRemoteClients",
+    "recommended_value": 0,
+    "backup_filename": "rpc_backup.reg"
+  },
+  "point_and_print_policy": {
+    "key_path": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint",
+    "value_name": "Restricted"
+  },
+  "anonymous_access": {
+    "key_path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+    "value_name": "RestrictAnonymous"
+  }
+}

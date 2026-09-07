@@ -1,0 +1,18 @@
+{
+  "commands": [
+    {
+      "id": 1,
+      "name": "Flush DNS Cache",
+      "command": "ipconfig /flushdns",
+      "requires_admin": false,
+      "category": "NETWORK"
+    },
+    {
+      "id": 2,
+      "name": "Restart Print Spooler",
+      "command": "powershell -Command \"Restart-Service -Name Spooler -Force\"",
+      "requires_admin": true,
+      "category": "PRINTER"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+2026-08-21 00:12:00
+USER       : IT-SUPPORT
+HOST       : vm
+MODULE     : PRINT MANAGEMENT
+ACTION     : SET COST PER PAGE
+TARGET     : Rp 500.0
+RESULT     : SUCCESS
+----------------------------------------

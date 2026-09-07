@@ -1,0 +1,6 @@
+{
+  "servers": [
+    {"name": "File Server", "ip": "192.168.10.10", "ports": [445, 139]},
+    {"name": "Domain Controller", "ip": "192.168.10.5", "ports": [389, 445, 88]}
+  ]
+}

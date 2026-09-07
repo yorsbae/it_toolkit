@@ -1,0 +1,9 @@
+{
+  "fixes": [
+    {"id": "restart_service", "label": "Restart a Service", "requires_admin": true, "requires_confirmation": true},
+    {"id": "apply_rpc_registry_fix", "label": "Apply RPC Registry Fix", "requires_admin": true, "requires_confirmation": true, "requires_backup": true},
+    {"id": "reset_sharing_configuration", "label": "Reset Sharing Configuration", "requires_admin": true, "requires_confirmation": true},
+    {"id": "restart_server", "label": "Restart Server", "requires_admin": true, "requires_confirmation": true},
+    {"id": "clear_saved_credentials", "label": "Clear Saved Credentials", "requires_admin": false, "requires_confirmation": true}
+  ]
+}

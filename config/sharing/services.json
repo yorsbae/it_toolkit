@@ -1,0 +1,8 @@
+{
+  "services": [
+    {"id": "LanmanServer", "label": "Server (File/Printer Sharing)"},
+    {"id": "LanmanWorkstation", "label": "Workstation"},
+    {"id": "RpcSs", "label": "RPC"},
+    {"id": "Spooler", "label": "Print Spooler"}
+  ]
+}

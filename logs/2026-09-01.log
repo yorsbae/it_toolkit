@@ -1,0 +1,33 @@
+2026-09-01 02:43:17
+USER       : IT-SUPPORT
+HOST       : vm
+MODULE     : MONITORING
+ACTION     : WATCHDOG CHECK (SCHEDULED)
+TARGET     : LAN_DOWN
+RESULT     : FAILED
+ERROR      : Gateway tidak ditemukan/tidak merespon - kemungkinan adapter/AP/kabel
+----------------------------------------
+2026-09-01 02:43:21
+USER       : IT-SUPPORT
+HOST       : vm
+MODULE     : MONITORING
+ACTION     : CONFIGURE WATCHDOG
+TARGET     : -
+RESULT     : SUCCESS
+----------------------------------------
+2026-09-01 02:43:32
+USER       : IT-SUPPORT
+HOST       : vm
+MODULE     : MONITORING
+ACTION     : CONFIGURE WATCHDOG
+TARGET     : -
+RESULT     : SUCCESS
+----------------------------------------
+2026-09-01 02:49:02
+USER       : IT-SUPPORT
+HOST       : vm
+MODULE     : MONITORING
+ACTION     : CONFIGURE WATCHDOG
+TARGET     : -
+RESULT     : SUCCESS
+----------------------------------------

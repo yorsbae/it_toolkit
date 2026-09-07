@@ -1,0 +1,6 @@
+{
+  "targets": [
+    {"name": "Default Gateway Check", "ip": "8.8.8.8"},
+    {"name": "Cloudflare DNS", "ip": "1.1.1.1"}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "20-08-2026 23:44",
+  "technician": "IT SUPPORT",
+  "hostname": "vm",
+  "module": "NETWORK_PING",
+  "results": [
+    {
+      "label": "File Server  192.168.10.10",
+      "state": "FAIL",
+      "detail": "Request timed out / unreachable",
+      "recommendation": "Periksa kabel/koneksi, IP target, atau firewall ICMP."
+    },
+    {
+      "label": "Domain Controller  192.168.10.5",
+      "state": "FAIL",
+      "detail": "Request timed out / unreachable",
+      "recommendation": "Periksa kabel/koneksi, IP target, atau firewall ICMP."
+    },
+    {
+      "label": "Default Gateway Check  8.8.8.8",
+      "state": "FAIL",
+      "detail": "Request timed out / unreachable",
+      "recommendation": "Periksa kabel/koneksi, IP target, atau firewall ICMP."
+    },
+    {
+      "label": "Cloudflare DNS  1.1.1.1",
+      "state": "FAIL",
+      "detail": "Request timed out / unreachable",
+      "recommendation": "Periksa kabel/koneksi, IP target, atau firewall ICMP."
+    }
+  ],
+  "overall": "ISSUE DETECTED"
+}

@@ -1,0 +1,16 @@
+{
+  "app_name": "IT SUPPORT TOOLKIT",
+  "version": "1.0.0",
+  "technician_name": "IT SUPPORT",
+  "theme": "cyan",
+  "log_level": "INFO",
+  "report_formats": [
+    "txt",
+    "json"
+  ],
+  "paths": {
+    "reports": "reports",
+    "logs": "logs",
+    "backups": "backups"
+  }
+}
